@@ -4,5 +4,5 @@ jobs:
   Explore-GitHub-Actions:
     runs-on: self-hosted
     steps:
-      - run: cd /var/www/clients/client0/web17/web && git pull
+      - run: cd /var/www/clients/client0/web17/web && git pull origin master
       - run: echo "🍏 This job's status is ${{ job.status }}."
